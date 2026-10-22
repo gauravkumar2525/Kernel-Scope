@@ -1,0 +1,64 @@
+build/
+cmake-build-*/
+.cache/
+compile_commands.json
+
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local dev config
+.local/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (web visualizer)
+web/node_modules/
+web/dist/
+web/.env
+
+# WASM build artifacts
+web/public/wasm/*.wasm
+web/public/wasm/*.js
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.pypirc
+.aws/
+.ssh/
+
+# Dependencies, generated output, and logs
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+*.tsbuildinfo
+*.obj
+*.dll
+*.exe
+*.pdb
+*.zip
+
+# Local assistant configuration
+.agents/
+.codex/
